@@ -112,7 +112,7 @@ namespace API_RaceDay.Migrations
                         column: x => x.EventID,
                         principalTable: "Events",
                         principalColumn: "EventID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Enrolments_Participants_ParticipantID",
                         column: x => x.ParticipantID,

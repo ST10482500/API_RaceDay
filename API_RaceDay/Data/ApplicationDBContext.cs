@@ -29,8 +29,8 @@ namespace API_RaceDay.Data
 
            //Seed Organisers
             modelBuilder.Entity<Organiser>().HasData(
-             new Organiser { OrganiserID = 1, Name = "Comrades Org", Email = "comrade@race.com", ContactNumber = "0123456789" },
-             new Organiser { OrganiserID = 2, Name = "Cycle Tour Org", Email = "cycle@race.com", ContactNumber = "0987654321" }
+             new Organiser { OrganiserID = 1, Name = "Comrades Org",  Email = "comrade@race.com", ContactNumber = "0123456789" },
+             new Organiser { OrganiserID = 2, Name = "Cycle Tour Org",  Email = "cycle@race.com", ContactNumber = "0987654321" }
 
                 );
             //Seed participant
