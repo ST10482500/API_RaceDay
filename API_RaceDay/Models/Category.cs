@@ -1,6 +1,6 @@
 ﻿namespace API_RaceDay.Models
 {
-    public class Category
+    public class  Category
     {
     public int CategoryID { get; set; }
     public int EventID { get; set; }
