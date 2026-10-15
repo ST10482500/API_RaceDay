@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API_RaceDay.Controllers
-{
+ {
     [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
