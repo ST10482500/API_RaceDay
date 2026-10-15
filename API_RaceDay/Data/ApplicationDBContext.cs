@@ -6,7 +6,7 @@ namespace API_RaceDay.Data
     {
         public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options)
             : base(options)
-        {
+         {
             // TODO: add a DbSet<T> property here for each model,
             // once the model classes in /Models have real properties.
             // e.g. public DbSet<User> Users { get; set; }
