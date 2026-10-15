@@ -2,7 +2,7 @@
 {
     public class Enrolment
     {
-    public int EnrolmentID { get; set; }
+    public int EnrolmentID  { get; set; }
     public int ParticipantID { get; set; }
     public int EventID { get; set; }
     public int CategoryID { get; set; }
