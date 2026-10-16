@@ -8,7 +8,7 @@ using API_RaceDay.Controllers;
 using API_RaceDay.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace TestProject_API.TestHelpers
+ namespace TestProject_API.TestHelpers
 {
     public class FakeApplicationDBContext : DbContext // Fix: Inherit from DbContext
     {
